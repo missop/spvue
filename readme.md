@@ -12,4 +12,4 @@ yarn create vite-app templates
 yarn link
 
 第六步：yoe run spvue
-报错！！！
+报错！！！ 是由于没有在`generator-spvue`目录下安装yeoman-generator！！

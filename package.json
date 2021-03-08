@@ -2,5 +2,8 @@
   "name": "generator-spvue",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "yeoman-generator": "^5.1.0"
+  }
 }
