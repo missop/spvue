@@ -13,3 +13,11 @@ yarn link
 
 第六步：yoe run spvue
 报错！！！ 是由于没有在`generator-spvue`目录下安装yeoman-generator！！
+
+### 使用时
+`yarn add -D generator-spvue yeoman-generator`
+
+注意！
+templatePath 对应的是node_modules中文件的路径,也就是说在node_modules中有一份项目文件
+
+destinationPath 当前执行`yoe run spvue`的文件，必须是执行当前目录的node_modules中的yeoman-generator才行

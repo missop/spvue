@@ -52,6 +52,8 @@ module.exports = class extends (
       //   this.answers
       // );
       // 为每一个模板在目标路径下生成相对应文件
+      console.log("templatePath",this.templatePath(item))
+      console.log("destinationPath",this.destinationPath(item))
       // setTimeout(()=>{
         this.fs.copyTpl(
           this.templatePath(item),
