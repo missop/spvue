@@ -22,7 +22,7 @@ module.exports = class extends (
       ".env.development",
       ".env.production",
       // '.eslintrc.js',
-      ".gitignore",
+      // ".gitignore",
       "package.json",
       //   'babel.config.js',
       // 'postcss.config.js',

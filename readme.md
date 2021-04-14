@@ -21,3 +21,6 @@ yarn link
 templatePath 对应的是node_modules中文件的路径,也就是说在node_modules中有一份项目文件
 
 destinationPath 当前执行`yoe run spvue`的文件，必须是执行当前目录的node_modules中的yeoman-generator才行
+
+发布时npm publish会报错，使用下面这个可以：
+`yarn publish --registry=https://registry.yarnpkg.com`
