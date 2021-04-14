@@ -1,10 +1,13 @@
 {
   "name": "generator-spvue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "author": "whoisnpmuser",
-  "keywords": ["vue","generator"],
+  "keywords": [
+    "vue",
+    "generator"
+  ],
   "dependencies": {
     "yeoman-generator": "^5.1.0"
   }
