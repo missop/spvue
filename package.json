@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "whoisnpmuser",
+  "keywords": ["vue","generator"],
   "dependencies": {
     "yeoman-generator": "^5.1.0"
   }
